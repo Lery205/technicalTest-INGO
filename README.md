@@ -1,6 +1,8 @@
 # technicalTest-INGO
 Function that receives as parameter a string with an hour and returns the hour as a text.
 
+## Requirements 
+* Node.js
 ## Execution
 This is a Node project, to execute follow this instructions:
 * Step 1: Download the project
