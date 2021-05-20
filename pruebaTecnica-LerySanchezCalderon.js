@@ -23,6 +23,8 @@ function clock(p_time) {
     }
 }
 
+console.log(clock('9:00am'))
+
 exports.clock = clock;
 
 

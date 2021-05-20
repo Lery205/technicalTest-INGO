@@ -4,7 +4,8 @@
   "description": "",
   "main": "pruebaTecnica-LerySanchezCalderon.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "start": "node pruebaTecnica-LerySanchezCalderon.js"
   },
   "repository": {
     "type": "git",
