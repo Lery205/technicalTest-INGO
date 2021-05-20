@@ -1,0 +1,23 @@
+{
+  "name": "PruebaTecnica-INGO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pruebaTecnica-LerySanchezCalderon.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lery205/technicalTest-INGO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lery205/technicalTest-INGO/issues"
+  },
+  "homepage": "https://github.com/Lery205/technicalTest-INGO#readme",
+  "devDependencies": {
+    "jasmine": "^3.7.0"
+  }
+}

@@ -9,7 +9,7 @@ function clock(p_time) {
     }
     //Return the result according the parameter
     if (hour === 12 && minutes === 0) {
-        return `Es ${(time === 'pm' ? 'media noche' : 'medio día')}`
+        return `Es ${(time === 'am' ? 'media noche' : 'medio día')}`
     } else {
         return (
             (hour !== 1 ? 'Son las ' :
@@ -23,18 +23,8 @@ function clock(p_time) {
     }
 }
 
-console.log(clock('9:05am'))
-//Unit Test
+exports.clock = clock;
 
-// console.log(clock('9:05am') === "Son las nueve y cinco de la mañana")
-// console.log(clock('9:15am') === "Son las nueve y cuarto de la mañana")
-// console.log(clock('12:00pm') === "Es media noche")
-// console.log(clock('12:00am') === "Es medio día")
-// console.log(clock('2:34pm') === "Son las dos y treinta y cuatro de la tarde")
-// console.log(clock('1:00am') === "Es la una en punto de la mañana")
-// console.log(clock('1:30am') === "Son la una y media de la mañana")
-// console.log(clock('6:00pm') === "Son las seis en punto de la noche")
-// console.log(clock('1:00pm') === "Es la una en punto de la tarde")
 
 
 
